@@ -13,8 +13,7 @@ I have personally annotated and customized the acne dataset using Roboflow. "htt
 
 !python train.py --img 416 --batch 16 --epochs 100 --data /content/yolov5/data/coco128.yaml --weights yolov5m.pt --cache
 
-!python detect.py --weights /content/yolov5/runs/train/exp/weights/best.pt --img 416 --conf 0.50 --source /content/cystic1.jpeg
-
+!python detect.py --weights /content/yolov5/runs/train/exp/weights/best.pt --img 416 --conf 0.50 --source 
 ## Results
 ![cystic0](https://github.com/zainab-tahir/Acne-Detection/assets/121153871/e702c7dd-4043-4571-8dc3-24a7b746acb9)
 ![cystic1](https://github.com/zainab-tahir/Acne-Detection/assets/121153871/e6ae5c5f-9032-41a4-a0fa-afbbe77ebc71)
